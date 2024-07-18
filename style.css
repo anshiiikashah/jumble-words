@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(202, 136, 147);
+    margin: 0;
+    padding: 0;
+}
+#main{
+    background-color: rgb(99, 50, 113);
+    color: white;
+    height: 5vh;
+    padding: 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+#firstPage{
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+}
+.box{
+    
+    height: 15vh;
+}
+#check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2vh;
+    
+}
+#button{
+    font-size: 150%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(108, 41, 108);
+    border: 3px solid white;
+    border-radius: 2vh;
+    width: 10vw;
+    height: 6vh;
+    color: white;
+}
+.box{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    display: flex;
+    font-size: 190%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 101, 248);
+}
+#correct{
+    background-color: rgb(108, 41, 108);
+    color: white;
+    font-size: 150%;
+    padding: 2vh;
+    border: 2px solid black;
+    border: 3px solid white;
+}
+#next{
+    background-color:rgb(108, 41, 108);
+    color: white;
+    font-size: 150%;
+    padding: 2vh;
+    border: 2px solid black;
+    border: 3px solid white;
+}
+#tryAgain{
+    background-color:rgb(108, 41, 108);
+    color: white;
+    font-size: 150%;
+    padding: 2vh;
+    border: 2px solid black;
+    border: 3px solid white;
+}
